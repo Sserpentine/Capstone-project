@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav>
+        <div class="nav-bar-button"><a href="./signup.html">Sign Up</a></div>
+        <div class="nav-bar-button"><a href="./signin.html">Sign In</a></div>
+    </nav>
+    <h1 class="signuph1">Create an account</h1>
+    <form action="./signup.php" method="post">
+        <label for="firstname">First Name</label> <br>
+        <input type="text" name="firstname" id="firstname" placeholder="Enter your first name"> <br> 
+        <label for="lastname">Last Name</label> <br>
+        <input type="text" name="lastname" id="lastname" placeholder="Enter your last name"> <br> 
+        <label for="phonenumber"> Phone Number</label> <br>
+        <input type="number" name="phonenumber" id="phone" placeholder="Enter your phone number"> <br> 
+        <label for="grade">Grade</label> <br> 
+        <input type="number" name="grade" id="grade" placeholder="Enter your grade" max="12"> <br> 
+        <label for="age">Age</label> <br>
+        <input type="number" name="age" id="age" placeholder="Enter your age" max="20"> <br> 
+        <label for="gender">Gender</label> <br>
+        <input type="text" name="gender" id="gender" placeholder="Enter your gender"> <br> <br>
+        <button type="submit">Submit <Form></Form></button>
+    </form> <br>
+    Already have an account? <a href="./signin.html">Sign In</a>
+</body>
+</html>
